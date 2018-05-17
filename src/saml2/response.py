@@ -764,7 +764,7 @@ class AuthnResponse(StatusResponse):
 
         #if self.context == "AuthnReq" or self.context == "AttrQuery":
         if self.context == "AuthnReq":
-            self.authn_statement_ok()
+            self.authn_statement_ok(True)
         #        elif self.context == "AttrQuery":
         #            self.authn_statement_ok(True)
 
